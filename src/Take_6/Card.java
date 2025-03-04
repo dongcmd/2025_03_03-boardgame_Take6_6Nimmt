@@ -3,9 +3,10 @@ package Take_6;
 public class Card implements Comparable<Card> {
 	static int cnt;
 	int num, score;
+	Player playedBy;
 	Card() {
 		num = ++cnt;
-		score = (int)(Math.random() * -5 +1);
+		score = (int)(Math.random() * -5 -1);
 	}
 	@Override
 	public int compareTo(Card c) {

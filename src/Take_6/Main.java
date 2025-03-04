@@ -14,7 +14,7 @@ public class Main {
 				+ "카드 104장을 섞어 10장씩 나눠줍니다.\n", Take_6.players.length);
 		Take_6.shuffleCards();
 		Take_6.dealCards();
-		Take_6.play();
+		Take_6.playGame();
 		
 		
 	}
